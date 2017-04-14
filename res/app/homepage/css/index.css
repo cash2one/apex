@@ -1,7 +1,12 @@
-a {
+/*general  style*/
+
+.link {
 	color: white;
-	text-decoration: underline;
 	cursor: pointer;
+}
+
+.link--underline {
+	text-decoration: underline;
 }
 
 body {
@@ -11,6 +16,8 @@ body {
 	height: 3636px;
 	background-color: #ffffff;
 }
+
+/*header  style*/
 
 .header-container {
 	height: 640px;
@@ -39,6 +46,7 @@ body {
 .social-button {
 	width: 24px;
 	height: 24px;
+	cursor: pointer;
 }
 
 .social-button--gplus {
@@ -117,6 +125,8 @@ body {
 	display: inline-block;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	-webkit-filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+   filter:  drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 .download-button--free {
@@ -129,6 +139,8 @@ body {
 	background-image: url("/static/homepage/img/playstore-pro.svg");
 	float: right;
 }
+
+/*middle content style*/
 
 .content-container {
 	height: 2826px;
@@ -146,20 +158,22 @@ body {
 	transform: translateY(-100px);
 }
 
+/*improve-your-android*/
+
 .improve-your-android {
 	margin: auto;
 	position:relative;
-	display: flex;
 	top: 55px;
 	width: 940px;
 	height: 879px;
 	border-radius: 6px;
 	background-color: #ffffff;
 	box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+	z-index: 2;
 }
 
 .improve-your-android-header {
-	margin-top: 72px;
+	padding-top: 72px;
 	margin-left: 54px;
 	width: 832px;
 	height: 33px;
@@ -169,21 +183,388 @@ body {
 	text-align: center;
 }
 
-.improve-your-android-tips-group {
+.improve-your-android-tips-groups {
+	margin-top: 40px;
 	display: flex;
+	justify-content: space-around;
 }
 
-.improve-your-android-tips {
-	display: flex;
+.improve-your-android-tips-title {
+	width: 260px;
+}
+
+.tip-title-text {
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 500;
+	color: #000000;
+}
+
+.tip-title-summary {
+	margin-top: 35px;
+	display: block;
+	font-size: 16px;
+}
+
+.tips-icon {
+	margin: auto;
+	display: block;
+	width: 96px;
+	height: 96px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.tips-icon--customizable {
+	background-image: url("/static/homepage/img/icon-beautiful@2x.png.png");
+}
+
+.tips-icon--beautiful {
+	background-image: url("/static/homepage/img/icon-customizable@2x.png.png");
+}
+
+.tips-icon--fast {
+	background-image: url("/static/homepage/img/icon-fast@2x.png.png");
 }
 
 .improve-your-android-tip {
-	display: flex;
+	margin-top: 36px;
+	display: block;
+	font-size: 14px;
 }
+
+.improve-your-android-tip--pro::before{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 32px;
+	height: 16px;
+	background-image: url("/static/homepage/img/pro-badge.svg");
+	background-repeat: no-repeat;
+	transform: translateY(-100%);
+}
+
+
+/*android community and users*/
+
+.community-and-users {
+	background: white;
+	height: 1200px;
+}
+
+.community-and-users::before {
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 1024px 0 0;
+	border-color: #ffc106 transparent transparent transparent;
+	position: absolute;
+}
+
+.community-and-users::after {
+	content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 100px 1024px;
+    border-color: transparent transparent #ffc106 transparent;
+    position: absolute;
+    transform: translateY(89px);
+}
+
+.community {
+	padding-top: 200px;
+	text-align: center;
+}
+
+.community-title {
+	width: 832px;
+	height: 40px;
+	font-family: Roboto;
+	font-size: 34px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #000000;
+}
+
+.community-comments {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.community-comment {
+	display: inline-block;
+}
+
+.community-comment-icon {
+	margin: auto;
+	padding-bottom: 20px;
+	display: block;
+    background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.community-comment-icon--techworm {
+	height: 59px;
+	width: 178px;
+	background-image: url("/static/homepage/img/publication-techworm@2x.png.png");
+}
+
+.community-comment-icon--android-names {
+	height: 59px;
+	width: 106px;
+	background-image: url("/static/homepage/img/publication-android-names@2x.png.png");
+}
+
+.community-comment-icon--devslab {
+	height: 59px;
+	width: 178px;
+	background-image: url("/static/homepage/img/publication-devs-lab@2x.png.png");
+}
+
+.community-comment-icon--lifehacker {
+	width: 135px;
+	height: 34px;
+	background-image: url("/static/homepage/img/publication-lifehacker.svg");
+}
+
+.community-comment-icon--android-authority {
+	width: 250px;
+	height: 34px;
+	background-image: url("/static/homepage/img/publication-android-authority.svg");
+}
+
+.community-comment-text {
+	margin-top: 20px;
+	display: block;
+	font-family: OpenSans;
+	font-size: 16px;
+	font-style: italic;
+	color: #000000;
+}
+
+.users {
+	margin-top: 120px;
+	text-align: center;
+}
+
+.user-icon {
+	margin: auto;
+	padding-bottom: 20px;
+	display: block;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 60px;
+	height: 60px;
+}
+
+.user-icon--ethan {
+	background-image: url("/static/homepage/img/user-ethan-beck@2x.png.png");
+}
+
+.user-icon--mouhaad {
+	background-image: url("/static/homepage/img/user-mouhaad-sahi@2x.png.png");
+}
+
+.user-icon--ron {
+	background-image: url("/static/homepage/img/user-ron-d@2x.png.png");
+}
+
+.user-icon--tommy {
+	background-image: url("/static/homepage/img/user-tommy-dozier@2x.png.png");
+}
+
+.username {
+	display: block;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.five-star {
+	margin: auto;
+	display: block;
+	width: 88px;
+	height: 15px;
+	background-image: url("/static/homepage/img/5-stars.svg");
+}
+
+/*partner with us*/
+
+.partner-with-us {
+	padding-top: 150px;
+	height: 0px;
+}
+
+.partner-with-us-container {
+	margin: auto;
+	width: 780px;
+	height: 364px;
+	border-radius: 6px;
+	background-image: linear-gradient(to bottom, #00bcd4, #2962ff);
+	box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+	transform: translateY(-230px);
+}
+
+.partner-with-us::before {
+	/*content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 100px 1024px;
+	border-color: transparent transparent #ffc106 transparent;
+	position: absolute;
+	transform: translateY(-250px);*/
+
+	content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 1024px 0 0;
+    border-color: #ffc106 transparent transparent transparent;
+	position: relative;
+    bottom: -200px;
+}
+
+/*.partner-with-us::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 100px 1024px;
+	border-color: transparent transparent #ffc106 transparent;
+	position: absolute;
+	transform: translateY(-250px);
+}*/
+
+.customize-your-home::before {
+	/*content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 1024px 0 0;
+    border-color: #ffc106 transparent transparent transparent;
+	position: relative;
+    bottom: 328px;*/
+}
+
+.partner-with-us-content {
+	display: inline-block;
+	width: 400px;
+	padding-top: 50px;
+    padding-left: 100px;
+}
+
+.partner-with-us-title {
+	display: block;
+	width: 824px;
+	height: 40px;
+	font-family: Roboto;
+	font-size: 34px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.partner-with-us-text {
+	margin-top: 20px;
+	display: block;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.contact-us-icon {
+	margin-top: 40px;
+	display: block;
+	width: 168px;
+	height: 48px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	background-image: url("/static/homepage/img/contact-black.svg");
+}
+
+.phone-partners {
+	margin-right: 30px;
+	display: inline-block;
+	width: 190px;
+	height: 528px;
+	background-image: url("/static/homepage/img/phone-partners@2x.png.png");
+	background-size: 100%;
+	float: right;
+	transform: translateY(-80px);
+}
+
+/*customize your home*/
+
+.customize-your-home {
+	margin-top: 100px;
+	text-align: center;
+	background: #fff;
+	height: 360px;
+	padding-top: 200px;
+}
+
+.customize-your-home-container {
+	position: absolute;
+    width: 1024px;
+}
+
+.customize-your-home-title {
+	margin: auto;
+	display: block;
+	font-size: 28px;
+	font-weight: 300;
+	color: #000000;
+}
+
+.download-button-group--bottom{
+	display: flex;
+    justify-content: center;
+}
+
+.download-button--bottom {
+	margin: 20px;
+}
+/*footer style*/
 
 #footer {
 	width: 1024px;
 	height: 170px;
 	border-radius: 6px;
 	background-image: linear-gradient(to bottom, #00bcd4, #2962ff);
+}
+
+.footer-links {
+	margin: auto;
+	padding-top: 27px;
+	display: flex;
+	justify-content: space-between;
+	width: 450px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.social-buttons--footer {
+    margin: auto;
+    padding-top: 30px;
+	display: block;
+    float: none;
+}
+
+.copyright-2017-apex {
+	margin: auto;
+	padding-top: 43px;
+	width: 380px;
+	height: 14px;
+	opacity: 0.6;
+	font-size: 12px;
+	text-align: center;
+	color: #ffffff;
 }
