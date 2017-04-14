@@ -345,8 +345,8 @@ body {
 .community-comment-text {
 	margin-top: 20px;
 	display: block;
-	font-family: OpenSans;
-	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
 	font-style: italic;
 	color: #000000;
 }
@@ -414,15 +414,6 @@ body {
 }
 
 .partner-with-us::before {
-	/*content: "";
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 0 100px 1024px;
-	border-color: transparent transparent #ffc106 transparent;
-	position: absolute;
-	transform: translateY(-250px);*/
-
 	content: "";
     width: 0;
     height: 0;
@@ -431,28 +422,6 @@ body {
     border-color: #ffc106 transparent transparent transparent;
 	position: relative;
     bottom: -200px;
-}
-
-/*.partner-with-us::after {
-	content: "";
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 0 100px 1024px;
-	border-color: transparent transparent #ffc106 transparent;
-	position: absolute;
-	transform: translateY(-250px);
-}*/
-
-.customize-your-home::before {
-	/*content: "";
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 100px 1024px 0 0;
-    border-color: #ffc106 transparent transparent transparent;
-	position: relative;
-    bottom: 328px;*/
 }
 
 .partner-with-us-content {
