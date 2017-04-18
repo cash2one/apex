@@ -61,7 +61,7 @@ body {
 }
 
 .social-button--facebook {
-	padding-right: 24px;
+	padding-right: 18px;
 	display: inline-block;
     background-repeat: no-repeat;
 	background-image: url("/static/homepage/img/facebook.svg");
