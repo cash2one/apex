@@ -1,4 +1,26 @@
-*.sqlite3
-static/*
-build/*
 *.pyc
+*.sqlite3
+*.*~
+*.idea
+media/*
+*node_modules/
+*public/*.map
+static/node_modules/
+static/public/*.map
+static/*.log
+
+# This ignore every directory named static, so res/static/ is ignore also
+static/
+
+# '!' is a negate operation, we add res/static/ back to gitignore 
+!res/static/
+
+.DS_Store
+.gitignore
+*.rdb
+*.pid
+*.db
+celerybeat-schedule
+*.log
+res/static/res/public/*
+res/static/production/*.map
