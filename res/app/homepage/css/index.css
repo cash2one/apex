@@ -43,7 +43,7 @@ body {
 	float: right;
 
 	margin-right: 52px;
-	width: 179px;
+	width: 150px;
 	height: 24px;
 }
 
@@ -145,7 +145,7 @@ body {
 
 .download-button--pro {
 	width: 175px;
-	background-image: url("/static/homepage/img/playstore-2.svg");
+	background-image: url("/static/homepage/img/playstore-2-no-price.svg");
 	float: right;
 }
 
@@ -280,6 +280,7 @@ body {
     border-color: transparent transparent #ffc106 transparent;
     position: absolute;
     transform: translateY(81px);
+	-moz-transform: translateY(76px);
 }
 
 .community {
