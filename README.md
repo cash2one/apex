@@ -1,7 +1,7 @@
 # apex
 
 ```
-python manage.py migrate
-python manage.py runserver
-open http://localhost:8000/homepage/
+python3 manage.py migrate
+python3 manage.py runserver
+open http://localhost:8000/
 ```
