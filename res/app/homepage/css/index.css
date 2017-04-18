@@ -1,5 +1,9 @@
 /*general  style*/
 
+a {
+	text-decoration: none;
+}
+
 .link {
 	color: white;
 	cursor: pointer;
@@ -15,6 +19,7 @@ body {
 	width: 1024px;
 	height: 3636px;
 	background-color: #ffffff;
+	color: #444;
 }
 
 /*header  style*/
@@ -55,7 +60,8 @@ body {
 .social-button--gplus {
 	margin-left: 15px;
 	width: 38px;
-	display: inline-block;
+	/*display: inline-block;*/
+	display: none;
     background-repeat: no-repeat;
 	background-image: url("/static/homepage/img/google-plus.svg");
 }
@@ -95,11 +101,11 @@ body {
 }
 
 .video-showcase {
-	width: 215px;
+	width: 214px;
 	height: 455px;
 	position: relative;
-	left: 11px;
-	top: 11px;
+	left: 12px;
+	top: 12px;
 }
 
 .download-component-group {
@@ -107,7 +113,7 @@ body {
 	margin-right: 102px;
 	display: inline-block;
 	float: right;
-	width: 470px;
+	width: 480px;
 }
 
 .download-description {
@@ -139,7 +145,7 @@ body {
 
 .download-button--pro {
 	width: 175px;
-	background-image: url("/static/homepage/img/playstore-pro.svg");
+	background-image: url("/static/homepage/img/playstore-2.svg");
 	float: right;
 }
 
@@ -182,7 +188,6 @@ body {
 	height: 33px;
 	font-size: 28px;
 	font-weight: 300;
-	color: #000000;
 	text-align: center;
 }
 
@@ -190,6 +195,8 @@ body {
 	margin-top: 40px;
 	display: flex;
 	justify-content: space-around;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .improve-your-android-tips-title {
@@ -199,20 +206,19 @@ body {
 .tip-title-text {
 	margin-top: 20px;
 	display: block;
-	text-align: center;
 	font-size: 24px;
 	font-weight: 500;
-	color: #000000;
 }
 
 .tip-title-summary {
 	margin-top: 35px;
 	display: block;
 	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
 }
 
 .tips-icon {
-	margin: auto;
 	display: block;
 	width: 96px;
 	height: 96px;
@@ -221,15 +227,15 @@ body {
 }
 
 .tips-icon--customizable {
-	background-image: url("/static/homepage/img/icon-beautiful@2x.png.png");
+	background-image: url("/static/homepage/img/icon-customizable-2@2x.png.png");
 }
 
 .tips-icon--beautiful {
-	background-image: url("/static/homepage/img/icon-customizable@2x.png.png");
+	background-image: url("/static/homepage/img/icon-beautiful-2@2x.png.png");
 }
 
 .tips-icon--fast {
-	background-image: url("/static/homepage/img/icon-fast@2x.png.png");
+	background-image: url("/static/homepage/img/icon-fast-2@2x.png.png");
 }
 
 .improve-your-android-tip {
@@ -238,15 +244,13 @@ body {
 	font-size: 14px;
 }
 
-.improve-your-android-tip--pro::before{
-	content: "";
-	position: absolute;
-	display: block;
+.improve-your-android-tip-pro {
 	width: 32px;
 	height: 16px;
 	background-image: url("/static/homepage/img/pro-badge.svg");
-	background-repeat: no-repeat;
-	transform: translateY(-100%);
+	display: block;
+	position: absolute;
+	transform: translateY(100%);
 }
 
 
@@ -288,13 +292,12 @@ body {
 	height: 40px;
 	font-family: Roboto;
 	font-size: 34px;
-	font-weight: 500;
+	font-weight: 300;
 	font-style: normal;
 	font-stretch: normal;
 	line-height: normal;
 	letter-spacing: normal;
 	text-align: center;
-	color: #000000;
 }
 
 .community-comments {
@@ -351,7 +354,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-style: italic;
-	color: #000000;
 }
 
 .users {
@@ -440,7 +442,7 @@ body {
 	height: 40px;
 	font-family: Roboto;
 	font-size: 34px;
-	font-weight: 500;
+	font-weight: 300;
 	color: #ffffff;
 }
 
@@ -466,7 +468,7 @@ body {
 	display: inline-block;
 	width: 190px;
 	height: 528px;
-	background-image: url("/static/homepage/img/phone-partners@2x.png.png");
+	background-image: url("/static/homepage/img/phone-partners-updated@2x.png");
 	background-size: 100%;
 	float: right;
 	transform: translateY(-80px);
@@ -492,7 +494,6 @@ body {
 	display: block;
 	font-size: 28px;
 	font-weight: 300;
-	color: #000000;
 }
 
 .download-button-group--bottom{
