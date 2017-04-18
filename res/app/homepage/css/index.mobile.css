@@ -67,7 +67,7 @@
 	}
 
 	.content-container {
-		height: 5050px;
+		height: 4850px;
 	}
 
 	.content-container::before {
@@ -78,7 +78,7 @@
 
 	.improve-your-android {
 		width: 442px;
-		height: 2080px;
+		height: 1900px;
 		top: 25px;
 	}
 
@@ -87,16 +87,17 @@
 		display: block;
 		margin: auto;
 		padding-top: 40px;
-		width: 380px;
+		width: 325px;
 	}
 
 	.improve-your-android-tips-groups {
 		display: block;
+		margin-top: 60px;
 	}
 
 	.improve-your-android-tips-group {
 		margin: auto;
-		width: 335px;
+		width: 241px;
 		margin-top: 48px;
 	}
 
