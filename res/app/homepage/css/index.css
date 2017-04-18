@@ -41,9 +41,8 @@ body {
 .social-buttons {
 	display: inline-block;
 	float: right;
-
 	margin-right: 52px;
-	width: 150px;
+	width: 120px;
 	height: 24px;
 }
 
@@ -74,13 +73,13 @@ body {
 }
 
 .social-button--twitter {
-	padding-right: 14px;
 	display: inline-block;
     background-repeat: no-repeat;
 	background-image: url("/static/homepage/img/twitter.svg");
 }
 
 .social-button--medium {
+	padding-right: 18px;
 	width: 28px;
 	display: inline-block;
     background-repeat: no-repeat;
@@ -144,8 +143,8 @@ body {
 }
 
 .download-button--pro {
-	width: 175px;
-	background-image: url("/static/homepage/img/playstore-2-no-price.svg");
+	width: 162px;
+	background-image: url("/static/homepage/img/playstore-get-pro-v3.svg");
 	float: right;
 }
 
@@ -250,7 +249,7 @@ body {
 	background-image: url("/static/homepage/img/pro-badge.svg");
 	display: block;
 	position: absolute;
-	transform: translateY(100%);
+	transform: translateY(37px) translateX(-115%);
 }
 
 
