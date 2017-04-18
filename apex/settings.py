@@ -25,7 +25,7 @@ SECRET_KEY = 'ai=%+vpn5g6ya%dro3u!t1uppzcuppsle5n(ob9gog35r%6!hy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 STATIC_URL = '/static/'

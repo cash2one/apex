@@ -508,7 +508,6 @@ body {
 .footer {
 	width: 1024px;
 	height: 170px;
-	border-radius: 6px;
 	background-image: linear-gradient(to bottom, #00bcd4, #2962ff);
 }
 
