@@ -25,7 +25,6 @@ body {
 }
 
 .apex-launcher-logo {
-	margin-top: 50px;
 	margin-left: 77px;
 	display: inline-block;
 	height: 85px;
@@ -37,10 +36,14 @@ body {
 .social-buttons {
 	display: inline-block;
 	float: right;
-	margin-top: 50px;
+
 	margin-right: 52px;
 	width: 179px;
 	height: 24px;
+}
+
+.header-title {
+	padding-top: 50px;
 }
 
 .social-button {
@@ -50,7 +53,7 @@ body {
 }
 
 .social-button--gplus {
-	padding-right: 15px;
+	margin-left: 15px;
 	width: 38px;
 	display: inline-block;
     background-repeat: no-repeat;
@@ -272,7 +275,7 @@ body {
     border-width: 0 0 100px 1024px;
     border-color: transparent transparent #ffc106 transparent;
     position: absolute;
-    transform: translateY(89px);
+    transform: translateY(81px);
 }
 
 .community {
@@ -502,7 +505,7 @@ body {
 }
 /*footer style*/
 
-#footer {
+.footer {
 	width: 1024px;
 	height: 170px;
 	border-radius: 6px;
@@ -536,4 +539,8 @@ body {
 	font-size: 12px;
 	text-align: center;
 	color: #ffffff;
+}
+
+.moblie {
+	display: none;
 }

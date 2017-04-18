@@ -1,0 +1,252 @@
+/*mobile*/
+
+@media screen and (max-width: 375px) {
+
+	body {
+		width: 375px;
+	}
+
+	.header-container {
+		height: 960px;
+	}
+
+    .apex-launcher-logo {
+		margin: auto;
+        display: block;
+		width: 230px;
+		height: 42px;
+		background-size: 100%;
+    }
+
+	.download-buttons {
+    	margin-top: 30px;
+    	margin-bottom: 30px;
+	}
+
+	.download-button {
+		display: block;
+		margin: auto;
+	}
+
+	.download-button--free {
+		width: 162px;
+	}
+
+	.download-button--pro {
+		width: 162px;
+		float: none;
+		margin-top: 24px;
+	}
+
+	.social-buttons {
+		margin: auto;
+		display: block;
+		float: none;
+	}
+
+	.download-description {
+		font-size: 28px;
+	}
+
+	.download-component-group {
+		margin: auto;
+		text-align: center;
+		padding-top: 60px;
+		width: 375px;
+		float: none;
+	}
+
+	.phone-showcase {
+		margin: auto;
+		margin-top: 35px;
+	}
+
+	.video-showcase {
+		left: inherit;
+	}
+
+	.content-container {
+		height: 5050px;
+	}
+
+	.content-container::before {
+	    border-width: 0 0 50px 375px;
+		transform: translateY(-50px);
+	}
+
+
+	.improve-your-android {
+		width: 342px;
+		height: 2080px;
+		top: 25px;
+	}
+
+	.improve-your-android-header {
+		width: 100%;
+		margin: auto;
+		padding-top: 40px;
+	}
+
+	.improve-your-android-tips-groups {
+		display: block;
+	}
+
+	.improve-your-android-tips-group {
+		margin: auto;
+		width: 235px;
+		margin-top: 48px;
+	}
+
+	.improve-your-android-tips-title {
+		width: auto;
+	}
+
+	.improve-your-android-tip--pro::before {
+		transform: translateX(-120%);
+	}
+
+
+	.community {
+		padding-top: 150px;
+	}
+
+	.community-and-users::before {
+		border-width: 50px 375px 0 0;
+	}
+
+	.community-and-users {
+		height: auto;
+	    padding-bottom: 100px;
+	}
+
+
+	.community-title {
+		font-size: 28px;
+		width: 316px;
+		display: block;
+    	margin: auto;
+	}
+
+	.community-comments {
+		display: block;
+	}
+
+	.community-comment {
+		display: block;
+	}
+
+	.community-comment-icon {
+		margin-top: 32px;
+	}
+
+	.users {
+		margin-top: 80px;
+	}
+
+	.user-icon {
+		margin-top: 24px;
+	}
+
+	.partner-with-us {
+		padding-top: 0px;
+		height: 315px;
+		position: relative;
+	}
+
+	.community-and-users::after {
+		border-width: 0 0 50px 375px;
+		transform: translateY(50px);
+	}
+
+	.partner-with-us::before {
+		content: "";
+	    width: 0;
+	    height: 0;
+	    border-style: solid;
+	    border-width: 50px 375px 0 0;
+	    border-color: #ffc106 transparent transparent transparent;
+	    position: absolute;
+	    transform: translateY(-150px);
+	}
+
+	.partner-with-us-container {
+		width: 342px;
+		transform: translateY(-25px);
+	}
+
+	.partner-with-us-content {
+		display: block;
+		margin: auto;
+		padding: 0;
+		width: auto;
+		padding: 42px
+	}
+
+	.partner-with-us-title {
+		width: auto;
+	}
+
+	.contact-us-icon {
+		margin: auto;
+		margin-top: 45px;
+	}
+
+	.customize-your-home {
+		padding: inherit;
+		margin: auto;
+		padding-top: 100px;
+		display: block;
+		width: auto;
+	}
+
+	.customize-your-home-container {
+		width: 375px;
+	}
+
+	.customize-your-home-title {
+			width: 316px;
+	}
+
+	.download-button-group--bottom {
+		margin-top: 35px;
+		display: block;
+	}
+
+	.footer {
+		width: 375px;
+		height: 335px;
+	}
+
+	.footer-links {
+		display: block;
+		text-align: center;
+		width: auto;
+	}
+
+	.link {
+		display: block;
+		padding: 10px;
+	}
+
+	.copyright-2017-apex {
+		padding-top: 63px;
+	}
+
+
+	.space-after-phone-showcase {
+		height: 50px;
+		background-color: #ffc106;
+	}
+
+	body {
+		height: 6000px;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.moblie {
+		display: block;
+	}
+}

@@ -3,23 +3,24 @@
 	<title>Apex</title>
 	<script src="/static/homepage/js/index.js"></script>
 	<link rel="stylesheet" type="text/css" href="/static/homepage/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/static/homepage/css/index.mobile.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
 	<div class="header-container">
-		<div>
+		<div class="header-title">
 			<i class="apex-launcher-logo"></i>
-			<div class="social-buttons">
-				<i class="social-button social-button--gplus"></i>
+			<div class="social-buttons desktop">
 				<i class="social-button social-button--facebook"></i>
 				<i class="social-button social-button--twitter"></i>
 				<i class="social-button social-button--medium"></i>
+				<i class="social-button social-button--gplus"></i>
 			</div>
 		</div>
 
 		<div>
-			<i class="phone-showcase">
+			<i class="phone-showcase desktop">
 				<video class="video-showcase" loop autoplay>
 					<source src="/static/homepage/video/phone-header-video.mp4" type="video/mp4">
 					Such old. Very ancient. Dis broswer no support HTML5 video
@@ -32,11 +33,24 @@
 					<i class="download-button download-button--pro"></i>
 				</div>
 				<br />
-				<a class="link link--underline">DOWNLOAD APK</a>
+				<!-- <a class="link link--underline">DOWNLOAD APK</a> -->
+				<div class="social-buttons moblie">
+					<i class="social-button social-button--facebook"></i>
+					<i class="social-button social-button--twitter"></i>
+					<i class="social-button social-button--medium"></i>
+					<i class="social-button social-button--gplus"></i>
+				</div>
+				<i class="phone-showcase moblie">
+					<video class="video-showcase" loop autoplay>
+						<source src="/static/homepage/video/phone-header-video.mp4" type="video/mp4">
+						Such old. Very ancient. Dis broswer no support HTML5 video
+					</video>
+				</i>
 			</div>
 		</div>
 	</div>
 	<div class="content-container">
+		<div class="space-after-phone-showcase"></div>
 		<div class="improve-your-android">
 			<div class="improve-your-android-header">Improve your Android with Apex Launcher</div>
 			<div class="improve-your-android-tips-groups">
@@ -154,10 +168,10 @@
 			<div class="partner-with-us-container">
 				<div class="partner-with-us-content">
 					<span class="partner-with-us-title">Partner with us</span>
-					<span class="partner-with-us-text">Millions of people use Apex Launcher<br /> on their Android devices everyday. Our app<br />recommendation platform will help your app reach<br />the right audience at the right time. </span>
+					<span class="partner-with-us-text">Millions of people use Apex Launcher on their Android devices everyday. Our app recommendation platform will help your app reach the right audience at the right time. </span>
 					<i class="contact-us-icon"></i>
 				</div>
-				<i class="phone-partners"></i>
+				<i class="phone-partners desktop"></i>
 			</div>
 		</div>
 
@@ -172,7 +186,7 @@
 		</div>
 
 	</div>
-	<div id="footer">
+	<div class="footer">
 		<div class="footer-links">
 			<a class="link">APK DOWNLOAD</a>
 			<a class="link">FAQ</a>
@@ -180,10 +194,10 @@
 			<a class="link">CONTACT US</a>
 		</div>
 		<div class="social-buttons social-buttons--footer">
-			<i class="social-button social-button--gplus"></i>
 			<i class="social-button social-button--facebook"></i>
 			<i class="social-button social-button--twitter"></i>
 			<i class="social-button social-button--medium"></i>
+			<i class="social-button social-button--gplus"></i>
 		</div>
 		<div class="copyright-2017-apex">
 			Copyright 2017 Apex Launcher. All rights reserved.
