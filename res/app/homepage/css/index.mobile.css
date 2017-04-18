@@ -1,9 +1,9 @@
 /*mobile*/
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 380px) {
 
 	body {
-		width: 375px;
+		width: 380px;
 	}
 
 	.header-container {
@@ -52,7 +52,7 @@
 		margin: auto;
 		text-align: center;
 		padding-top: 60px;
-		width: 375px;
+		width: 380px;
 		float: none;
 	}
 
@@ -70,7 +70,7 @@
 	}
 
 	.content-container::before {
-	    border-width: 0 0 50px 375px;
+	    border-width: 0 0 50px 380px;
 		transform: translateY(-50px);
 	}
 
@@ -111,7 +111,7 @@
 	}
 
 	.community-and-users::before {
-		border-width: 50px 375px 0 0;
+		border-width: 50px 380px 0 0;
 	}
 
 	.community-and-users {
@@ -154,7 +154,7 @@
 	}
 
 	.community-and-users::after {
-		border-width: 0 0 50px 375px;
+		border-width: 0 0 50px 380px;
 		transform: translateY(50px);
 	}
 
@@ -163,7 +163,7 @@
 	    width: 0;
 	    height: 0;
 	    border-style: solid;
-	    border-width: 50px 375px 0 0;
+	    border-width: 50px 380px 0 0;
 	    border-color: #ffc106 transparent transparent transparent;
 	    position: absolute;
 	    transform: translateY(-150px);
@@ -200,7 +200,7 @@
 	}
 
 	.customize-your-home-container {
-		width: 375px;
+		width: 380px;
 	}
 
 	.customize-your-home-title {
@@ -213,7 +213,7 @@
 	}
 
 	.footer {
-		width: 375px;
+		width: 380px;
 		height: 335px;
 	}
 
