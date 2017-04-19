@@ -67,7 +67,7 @@
 	}
 
 	.content-container {
-		height: 4850px;
+		height: 4900px;
 	}
 
 	.content-container::before {
@@ -87,7 +87,7 @@
 		display: block;
 		margin: auto;
 		padding-top: 40px;
-		width: 325px;
+		width: 400px;
 	}
 
 	.improve-your-android-tips-groups {
@@ -133,6 +133,8 @@
 
 	.community-comments {
 		display: block;
+		margin-top: 0;
+		padding-top: 50px;
 	}
 
 	.community-comment {
@@ -243,7 +245,7 @@
 	}
 
 	body {
-		height: 6145px;
+		height: 6195px;
 	}
 
 	.desktop {
