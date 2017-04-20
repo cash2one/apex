@@ -66,6 +66,17 @@
 		left: inherit;
 	}
 
+	.image-showcase {
+		background-image: url("/static/homepage/img/phone-screen-static-mobile@2x.png.png");
+		display: block;
+		width: 214px;
+		height: 380px;
+		position: relative;
+		left: 12px;
+		top: 50px;
+		background-size: 100%;
+	}
+
 	.content-container {
 		height: 4900px;
 	}
