@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+	.header-container {
+		height: 600px;
+	}
+
+	.header-title {
+		padding-top: 50px;
+		margin: auto;
+		width: 768px;
+	}
+
+	.header-content {
+		margin: auto;
+		width: 768px;
+	}
+
+	.phone-showcase {
+		width: 220px;
+		height: 455px;
+		margin-left: 80px;
+	}
+
+	.video-showcase {
+		width: 197px;
+		height: 360px;
+		left: 11px;
+    	top: 40px;
+	}
+
+	.download-component-group {
+		width: 350px;
+		margin-right: 80px;
+	}
+
+	.download-description {
+		font-size: 34px;
+	}
+
+	.content-container {
+		height: 3850px;
+	}
+
+	.improve-your-android {
+		width: 630px;
+		height: 1280px;
+	}
+
+	.improve-your-android-header {
+		margin: auto;
+		font-size: 24px;
+		width: 600px;
+		height: 33px;
+	}
+
+	.improve-your-android-tips-group--third-group {
+		position: absolute;
+		top: 840px;
+		left: 50px;
+	}
+
+	.community-and-users {
+		height: 1700px;
+	}
+
+	.community-and-users::after {
+	    transform: translateY(143px);
+	    -moz-transform: translateY(76px);
+	}
+
+	.community-title {
+		width: 440px;
+		display: block;
+		margin: auto;
+		font-size: 28px;
+	}
+
+	.community-comments {
+		display: none;
+	}
+
+	.community-comments--tablet {
+		display: flex;
+	}
+
+	.partner-with-us {
+		padding-top: 160px;
+	}
+
+	.partner-with-us::before {
+		bottom: -200px;
+	}
+	.partner-with-us-container {
+		width: 660px;
+		height: 350px;
+	}
+
+	.partner-with-us-title {
+		font-size: 28px;
+	}
+
+	.partner-with-us-content {
+		padding-left: 50px;
+	}
+
+	.phone-partners {
+		margin-right: 20px;
+		width: 160px;
+		height: 440px;
+	    transform: translateY(-50px);
+	}
+
+	.customize-your-home {
+		padding-top: 300px;
+		height: 460px;
+	}
+
+}

@@ -1,6 +1,6 @@
 /*mobile*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
 
 	body {
 		width: 500px;
@@ -8,6 +8,14 @@
 
 	.header-container {
 		height: 960px;
+	}
+
+	.header-title {
+		width: 500px;
+	}
+
+	.header-content {
+		width: 500px;
 	}
 
     .apex-launcher-logo {
@@ -218,6 +226,7 @@
 
 	.customize-your-home-container {
 		width: 500px;
+		position: static;
 	}
 
 	.customize-your-home-title {
@@ -259,11 +268,15 @@
 		height: 6195px;
 	}
 
-	.desktop {
+	.moblie {
+		display: block;
+	}
+
+	.tablet {
 		display: none;
 	}
 
-	.moblie {
-		display: block;
+	.desktop {
+		display: none;
 	}
 }
