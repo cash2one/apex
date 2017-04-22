@@ -20,4 +20,5 @@ import apex.views as views
 urlpatterns = [
     # url(r'^admin/', admin.site.urls),
 	url(r'^$', views.homepage, name='homepage'),
+	url(r'^policy/', views.policy, name='policy'),
 ]
